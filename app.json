@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "alpaDrive",
+    "slug": "alpaDrive",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00000D"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.muhammedijas.alpaDrive",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAjf2ELyg9Gum-34VW4806IHTW8XNUKqrE"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ecf6b8dc-75fd-4085-8952-845172600fab"
+      }
+    }
+  }
+}
